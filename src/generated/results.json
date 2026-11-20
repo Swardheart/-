@@ -1,0 +1,2214 @@
+{
+  "checks": [
+    {
+      "name": "A–B",
+      "computed": 18.384776310850235,
+      "paper": 18.384776310850235,
+      "paperText": "18.384776310850235"
+    },
+    {
+      "name": "R–Q",
+      "computed": 18.060177186284744,
+      "paper": 18.060177186284744,
+      "paperText": "18.060177186284744"
+    }
+  ],
+  "presets": [
+    {
+      "name": "派收同权",
+      "alpha": 1,
+      "beta": 1,
+      "bestId": "R",
+      "paperBestId": "R",
+      "paperCost": 20551.115631,
+      "paperCostText": "20551.115631",
+      "ranking": [
+        {
+          "id": "R",
+          "cost": 20551.115630917575,
+          "avgDistance": 27.884824465288432,
+          "maxDistance": 61.595860250507094
+        },
+        {
+          "id": "S",
+          "cost": 21085.231966703253,
+          "avgDistance": 28.609541338810384,
+          "maxDistance": 61.11382822242443
+        },
+        {
+          "id": "O",
+          "cost": 22316.31087103396,
+          "avgDistance": 30.279933339259102,
+          "maxDistance": 62.75109560796528
+        },
+        {
+          "id": "T",
+          "cost": 22604.32116137375,
+          "avgDistance": 30.67072070742707,
+          "maxDistance": 71.26324438306187
+        },
+        {
+          "id": "H",
+          "cost": 23442.696236293257,
+          "avgDistance": 31.80827169103563,
+          "maxDistance": 69.23034016961061
+        },
+        {
+          "id": "Q",
+          "cost": 23708.641985105918,
+          "avgDistance": 32.16912073962811,
+          "maxDistance": 79.140002527167
+        },
+        {
+          "id": "N",
+          "cost": 24102.33396964399,
+          "avgDistance": 32.70330253683038,
+          "maxDistance": 71.5
+        },
+        {
+          "id": "D",
+          "cost": 24346.586892483498,
+          "avgDistance": 33.03471762887856,
+          "maxDistance": 64.97399479791895
+        },
+        {
+          "id": "F",
+          "cost": 25378.050059027413,
+          "avgDistance": 34.43426059569527,
+          "maxDistance": 61.650709647172754
+        },
+        {
+          "id": "P",
+          "cost": 25570.59730337,
+          "avgDistance": 34.695518729131614,
+          "maxDistance": 76.08054941967757
+        },
+        {
+          "id": "M",
+          "cost": 27055.45004382432,
+          "avgDistance": 36.71024429284168,
+          "maxDistance": 78.78686438740914
+        },
+        {
+          "id": "I",
+          "cost": 27296.16096663781,
+          "avgDistance": 37.036853414705305,
+          "maxDistance": 82.27059012794305
+        },
+        {
+          "id": "K",
+          "cost": 30357.85093346302,
+          "avgDistance": 41.19111388529582,
+          "maxDistance": 68.9
+        },
+        {
+          "id": "G",
+          "cost": 33095.601788746186,
+          "avgDistance": 44.90583689110744,
+          "maxDistance": 102.0396491565901
+        },
+        {
+          "id": "B",
+          "cost": 34782.09087436594,
+          "avgDistance": 47.194153153820814,
+          "maxDistance": 93.60902734245239
+        },
+        {
+          "id": "J",
+          "cost": 35151.18779316153,
+          "avgDistance": 47.694963084344,
+          "maxDistance": 105.90812055739634
+        },
+        {
+          "id": "C",
+          "cost": 36243.19041065652,
+          "avgDistance": 49.17664913250545,
+          "maxDistance": 102.77402395547233
+        },
+        {
+          "id": "L",
+          "cost": 36797.14501865835,
+          "avgDistance": 49.92828360740618,
+          "maxDistance": 90.53452380169678
+        },
+        {
+          "id": "E",
+          "cost": 39125.04772230859,
+          "avgDistance": 53.08690328671451,
+          "maxDistance": 111.86800257446272
+        },
+        {
+          "id": "A",
+          "cost": 46704.74381046792,
+          "avgDistance": 63.37142986494968,
+          "maxDistance": 111.86800257446272
+        }
+      ],
+      "paperAvgDistance": 27.884824465288442,
+      "paperAvgText": "27.884824465288442",
+      "paperMaxDistance": 61.595860250507094,
+      "paperMaxText": "61.595860250507094",
+      "paperSecondId": "S",
+      "paperSecondCost": 21085.231966703253,
+      "paperSecondText": "21085.231966703253"
+    },
+    {
+      "name": "派件优先",
+      "alpha": 1.2,
+      "beta": 0.8,
+      "bestId": "R",
+      "paperBestId": "R",
+      "paperCost": 20615.513403,
+      "paperCostText": "20615.513403",
+      "ranking": [
+        {
+          "id": "R",
+          "cost": 20615.51340336551,
+          "avgDistance": 27.93430000456031,
+          "maxDistance": 61.595860250507094
+        },
+        {
+          "id": "S",
+          "cost": 21145.00405923682,
+          "avgDistance": 28.65176701793607,
+          "maxDistance": 61.11382822242443
+        },
+        {
+          "id": "O",
+          "cost": 22405.38767748211,
+          "avgDistance": 30.35960389902725,
+          "maxDistance": 62.75109560796528
+        },
+        {
+          "id": "T",
+          "cost": 22619.97737531734,
+          "avgDistance": 30.65037584731347,
+          "maxDistance": 71.26324438306187
+        },
+        {
+          "id": "H",
+          "cost": 23469.06655608138,
+          "avgDistance": 31.800903192522195,
+          "maxDistance": 69.23034016961061
+        },
+        {
+          "id": "Q",
+          "cost": 23698.99322501089,
+          "avgDistance": 32.112456944459204,
+          "maxDistance": 79.140002527167
+        },
+        {
+          "id": "N",
+          "cost": 24226.60267905804,
+          "avgDistance": 32.82737490387268,
+          "maxDistance": 71.5
+        },
+        {
+          "id": "D",
+          "cost": 24455.604983522455,
+          "avgDistance": 33.13767612943422,
+          "maxDistance": 64.97399479791895
+        },
+        {
+          "id": "F",
+          "cost": 25420.957692036143,
+          "avgDistance": 34.44574213013028,
+          "maxDistance": 61.650709647172754
+        },
+        {
+          "id": "P",
+          "cost": 25721.475836562557,
+          "avgDistance": 34.852948288025146,
+          "maxDistance": 76.08054941967757
+        },
+        {
+          "id": "M",
+          "cost": 27204.614903893886,
+          "avgDistance": 36.86262182099443,
+          "maxDistance": 78.78686438740914
+        },
+        {
+          "id": "I",
+          "cost": 27280.323568034928,
+          "avgDistance": 36.96520808676819,
+          "maxDistance": 82.27059012794305
+        },
+        {
+          "id": "K",
+          "cost": 30396.762274885034,
+          "avgDistance": 41.18802476271685,
+          "maxDistance": 68.9
+        },
+        {
+          "id": "G",
+          "cost": 33067.365700759954,
+          "avgDistance": 44.806728591815656,
+          "maxDistance": 102.0396491565901
+        },
+        {
+          "id": "B",
+          "cost": 34969.24308788105,
+          "avgDistance": 47.38379822206104,
+          "maxDistance": 93.60902734245239
+        },
+        {
+          "id": "J",
+          "cost": 35134.921109239855,
+          "avgDistance": 47.60829418596186,
+          "maxDistance": 105.90812055739634
+        },
+        {
+          "id": "C",
+          "cost": 36235.01005944255,
+          "avgDistance": 49.09892961984086,
+          "maxDistance": 102.77402395547233
+        },
+        {
+          "id": "L",
+          "cost": 36896.81300796754,
+          "avgDistance": 49.995681582611844,
+          "maxDistance": 90.53452380169678
+        },
+        {
+          "id": "E",
+          "cost": 39096.7457941373,
+          "avgDistance": 52.97662031725921,
+          "maxDistance": 111.86800257446272
+        },
+        {
+          "id": "A",
+          "cost": 46894.94435499972,
+          "avgDistance": 63.543285033874966,
+          "maxDistance": 111.86800257446272
+        }
+      ],
+      "paperAvgDistance": null,
+      "paperAvgText": null,
+      "paperMaxDistance": null,
+      "paperMaxText": null,
+      "paperSecondId": null,
+      "paperSecondCost": null,
+      "paperSecondText": null
+    },
+    {
+      "name": "收件优先",
+      "alpha": 0.8,
+      "beta": 1.2,
+      "bestId": "R",
+      "paperBestId": "R",
+      "paperCost": 20486.717858,
+      "paperCostText": "20486.717858",
+      "ranking": [
+        {
+          "id": "R",
+          "cost": 20486.71785846965,
+          "avgDistance": 27.83521448161637,
+          "maxDistance": 61.595860250507094
+        },
+        {
+          "id": "S",
+          "cost": 21025.45987416969,
+          "avgDistance": 28.567200915991428,
+          "maxDistance": 61.11382822242443
+        },
+        {
+          "id": "O",
+          "cost": 22227.234064585813,
+          "avgDistance": 30.20004628340464,
+          "maxDistance": 62.75109560796528
+        },
+        {
+          "id": "T",
+          "cost": 22588.664947430178,
+          "avgDistance": 30.691120852486655,
+          "maxDistance": 71.26324438306187
+        },
+        {
+          "id": "H",
+          "cost": 23416.32591650513,
+          "avgDistance": 31.815660212642843,
+          "maxDistance": 69.23034016961061
+        },
+        {
+          "id": "Q",
+          "cost": 23718.29074520094,
+          "avgDistance": 32.22593851250127,
+          "maxDistance": 79.140002527167
+        },
+        {
+          "id": "N",
+          "cost": 23978.065260229934,
+          "avgDistance": 32.57889301661676,
+          "maxDistance": 71.5
+        },
+        {
+          "id": "D",
+          "cost": 24237.568801444537,
+          "avgDistance": 32.93147934978877,
+          "maxDistance": 64.97399479791895
+        },
+        {
+          "id": "F",
+          "cost": 25335.142426018676,
+          "avgDistance": 34.42274786143842,
+          "maxDistance": 61.650709647172754
+        },
+        {
+          "id": "P",
+          "cost": 25419.71877017743,
+          "avgDistance": 34.53766137252369,
+          "maxDistance": 76.08054941967757
+        },
+        {
+          "id": "M",
+          "cost": 26906.28518375475,
+          "avgDistance": 36.55745269531895,
+          "maxDistance": 78.78686438740914
+        },
+        {
+          "id": "I",
+          "cost": 27311.998365240685,
+          "avgDistance": 37.10869343103354,
+          "maxDistance": 82.27059012794305
+        },
+        {
+          "id": "K",
+          "cost": 30318.93959204101,
+          "avgDistance": 41.194211402229634,
+          "maxDistance": 68.9
+        },
+        {
+          "id": "G",
+          "cost": 33123.83787673243,
+          "avgDistance": 45.00521450642994,
+          "maxDistance": 102.0396491565901
+        },
+        {
+          "id": "B",
+          "cost": 34594.93866085083,
+          "avgDistance": 47.003992745721234,
+          "maxDistance": 93.60902734245239
+        },
+        {
+          "id": "J",
+          "cost": 35167.454477083214,
+          "avgDistance": 47.78186749603697,
+          "maxDistance": 105.90812055739634
+        },
+        {
+          "id": "C",
+          "cost": 36251.37076187049,
+          "avgDistance": 49.25457983949794,
+          "maxDistance": 102.77402395547233
+        },
+        {
+          "id": "L",
+          "cost": 36697.47702934916,
+          "avgDistance": 49.86070248552875,
+          "maxDistance": 90.53452380169678
+        },
+        {
+          "id": "E",
+          "cost": 39153.34965047987,
+          "avgDistance": 53.19748593815199,
+          "maxDistance": 111.86800257446272
+        },
+        {
+          "id": "A",
+          "cost": 46514.54326593612,
+          "avgDistance": 63.199107698282766,
+          "maxDistance": 111.86800257446272
+        }
+      ],
+      "paperAvgDistance": null,
+      "paperAvgText": null,
+      "paperMaxDistance": null,
+      "paperMaxText": null,
+      "paperSecondId": null,
+      "paperSecondCost": null,
+      "paperSecondText": null
+    },
+    {
+      "name": "仅考虑派件",
+      "alpha": 1,
+      "beta": 0,
+      "bestId": "R",
+      "paperBestId": "R",
+      "paperCost": 10436.552247,
+      "paperCostText": "10436.552247",
+      "ranking": [
+        {
+          "id": "R",
+          "cost": 10436.552246578622,
+          "avgDistance": 28.130868589160706,
+          "maxDistance": 61.595860250507094
+        },
+        {
+          "id": "S",
+          "cost": 10692.046214685537,
+          "avgDistance": 28.819531575971798,
+          "maxDistance": 61.11382822242443
+        },
+        {
+          "id": "T",
+          "cost": 11341.301115545835,
+          "avgDistance": 30.56954478583783,
+          "maxDistance": 71.26324438306187
+        },
+        {
+          "id": "O",
+          "cost": 11380.847451637348,
+          "avgDistance": 30.67613868365862,
+          "maxDistance": 62.75109560796528
+        },
+        {
+          "id": "H",
+          "cost": 11787.273917616936,
+          "avgDistance": 31.771627810288237,
+          "maxDistance": 69.23034016961061
+        },
+        {
+          "id": "Q",
+          "cost": 11830.199092315399,
+          "avgDistance": 31.887329089798918,
+          "maxDistance": 79.140002527167
+        },
+        {
+          "id": "N",
+          "cost": 12361.838758357135,
+          "avgDistance": 33.320320103388504,
+          "maxDistance": 71.5
+        },
+        {
+          "id": "D",
+          "cost": 12445.838673839153,
+          "avgDistance": 33.546734969916855,
+          "maxDistance": 64.97399479791895
+        },
+        {
+          "id": "F",
+          "cost": 12796.29411203554,
+          "avgDistance": 34.491358792548624,
+          "maxDistance": 61.650709647172754
+        },
+        {
+          "id": "P",
+          "cost": 13162.494984666393,
+          "avgDistance": 35.47842313926252,
+          "maxDistance": 76.08054941967757
+        },
+        {
+          "id": "I",
+          "cost": 13608.486986811713,
+          "avgDistance": 36.680557915934536,
+          "maxDistance": 82.27059012794305
+        },
+        {
+          "id": "M",
+          "cost": 13900.637172086077,
+          "avgDistance": 37.46802472260398,
+          "maxDistance": 78.78686438740914
+        },
+        {
+          "id": "K",
+          "cost": 15276.20382028654,
+          "avgDistance": 41.17575153716049,
+          "maxDistance": 68.9
+        },
+        {
+          "id": "G",
+          "cost": 16477.2106744075,
+          "avgDistance": 44.412966777378706,
+          "maxDistance": 102.0396491565901
+        },
+        {
+          "id": "J",
+          "cost": 17534.92718677656,
+          "avgDistance": 47.26395468133844,
+          "maxDistance": 105.90812055739634
+        },
+        {
+          "id": "B",
+          "cost": 17858.925970970744,
+          "avgDistance": 48.13726676811521,
+          "maxDistance": 93.60902734245239
+        },
+        {
+          "id": "C",
+          "cost": 18101.144327293336,
+          "avgDistance": 48.79014643475293,
+          "maxDistance": 102.77402395547233
+        },
+        {
+          "id": "L",
+          "cost": 18647.742482602156,
+          "avgDistance": 50.26345682642091,
+          "maxDistance": 90.53452380169678
+        },
+        {
+          "id": "E",
+          "cost": 19491.769040726078,
+          "avgDistance": 52.53846102621584,
+          "maxDistance": 111.86800257446272
+        },
+        {
+          "id": "A",
+          "cost": 23827.873266563456,
+          "avgDistance": 64.22607349478021,
+          "maxDistance": 111.86800257446272
+        }
+      ],
+      "paperAvgDistance": null,
+      "paperAvgText": null,
+      "paperMaxDistance": null,
+      "paperMaxText": null,
+      "paperSecondId": null,
+      "paperSecondCost": null,
+      "paperSecondText": null
+    },
+    {
+      "name": "仅考虑收件",
+      "alpha": 0,
+      "beta": 1,
+      "bestId": "R",
+      "paperBestId": "R",
+      "paperCost": 10114.563384,
+      "paperCostText": "10114.563384",
+      "ranking": [
+        {
+          "id": "R",
+          "cost": 10114.56338433896,
+          "avgDistance": 27.635419082893335,
+          "maxDistance": 61.595860250507094
+        },
+        {
+          "id": "S",
+          "cost": 10393.185752017715,
+          "avgDistance": 28.396682382562062,
+          "maxDistance": 61.11382822242443
+        },
+        {
+          "id": "O",
+          "cost": 10935.46341939661,
+          "avgDistance": 29.87831535354265,
+          "maxDistance": 62.75109560796528
+        },
+        {
+          "id": "T",
+          "cost": 11263.020045827916,
+          "avgDistance": 30.773278813737477,
+          "maxDistance": 71.26324438306187
+        },
+        {
+          "id": "H",
+          "cost": 11655.422318676314,
+          "avgDistance": 31.845416171246757,
+          "maxDistance": 69.23034016961061
+        },
+        {
+          "id": "N",
+          "cost": 11740.495211286852,
+          "avgDistance": 32.077855768543316,
+          "maxDistance": 71.5
+        },
+        {
+          "id": "Q",
+          "cost": 11878.442892790516,
+          "avgDistance": 32.45476200215988,
+          "maxDistance": 79.140002527167
+        },
+        {
+          "id": "D",
+          "cost": 11900.748218644343,
+          "avgDistance": 32.5157055154217,
+          "maxDistance": 64.97399479791895
+        },
+        {
+          "id": "P",
+          "cost": 12408.102318703599,
+          "avgDistance": 33.90191890356174,
+          "maxDistance": 76.08054941967757
+        },
+        {
+          "id": "F",
+          "cost": 12581.755946991874,
+          "avgDistance": 34.37638236883026,
+          "maxDistance": 61.650709647172754
+        },
+        {
+          "id": "M",
+          "cost": 13154.812871738237,
+          "avgDistance": 35.94211167141595,
+          "maxDistance": 78.78686438740914
+        },
+        {
+          "id": "I",
+          "cost": 13687.673979826099,
+          "avgDistance": 37.39801633832268,
+          "maxDistance": 82.27059012794305
+        },
+        {
+          "id": "K",
+          "cost": 15081.647113176485,
+          "avgDistance": 41.206686101575094,
+          "maxDistance": 68.9
+        },
+        {
+          "id": "G",
+          "cost": 16618.391114338694,
+          "avgDistance": 45.40544020311118,
+          "maxDistance": 102.0396491565901
+        },
+        {
+          "id": "B",
+          "cost": 16923.164903395194,
+          "avgDistance": 46.23815547375736,
+          "maxDistance": 93.60902734245239
+        },
+        {
+          "id": "J",
+          "cost": 17616.26060638497,
+          "avgDistance": 48.13185958028681,
+          "maxDistance": 105.90812055739634
+        },
+        {
+          "id": "C",
+          "cost": 18142.046083363184,
+          "avgDistance": 49.56843192175733,
+          "maxDistance": 102.77402395547233
+        },
+        {
+          "id": "L",
+          "cost": 18149.402536056197,
+          "avgDistance": 49.58853151927923,
+          "maxDistance": 90.53452380169678
+        },
+        {
+          "id": "E",
+          "cost": 19633.278681582506,
+          "avgDistance": 53.642837927821056,
+          "maxDistance": 111.86800257446272
+        },
+        {
+          "id": "A",
+          "cost": 22876.870543904464,
+          "avgDistance": 62.50511077569526,
+          "maxDistance": 111.86800257446272
+        }
+      ],
+      "paperAvgDistance": null,
+      "paperAvgText": null,
+      "paperMaxDistance": null,
+      "paperMaxText": null,
+      "paperSecondId": null,
+      "paperSecondCost": null,
+      "paperSecondText": null
+    }
+  ],
+  "single": {
+    "visits": [
+      "R",
+      "Q",
+      "I",
+      "E",
+      "J",
+      "G",
+      "C",
+      "T",
+      "H",
+      "D",
+      "L",
+      "A",
+      "B",
+      "M",
+      "P",
+      "N",
+      "O",
+      "K",
+      "F",
+      "S"
+    ],
+    "legs": [
+      {
+        "from": "R",
+        "to": "Q",
+        "distance": 18.060177186284744,
+        "cumulative": 18.060177186284744,
+        "paperDistance": 18.060177186284744,
+        "paperCumulative": 18.060177186284744
+      },
+      {
+        "from": "Q",
+        "to": "I",
+        "distance": 15.654072952429985,
+        "cumulative": 33.71425013871473,
+        "paperDistance": 15.654072952429985,
+        "paperCumulative": 33.71425013871473
+      },
+      {
+        "from": "I",
+        "to": "E",
+        "distance": 32.10763149159402,
+        "cumulative": 65.82188163030875,
+        "paperDistance": 32.10763149159402,
+        "paperCumulative": 65.82188163030875
+      },
+      {
+        "from": "E",
+        "to": "J",
+        "distance": 7.799999999999997,
+        "cumulative": 73.62188163030875,
+        "paperDistance": 7.8,
+        "paperCumulative": 73.62188163030875
+      },
+      {
+        "from": "J",
+        "to": "G",
+        "distance": 6.6287253676706195,
+        "cumulative": 80.25060699797938,
+        "paperDistance": 6.6287253676706195,
+        "paperCumulative": 80.25060699797938
+      },
+      {
+        "from": "G",
+        "to": "C",
+        "distance": 19.325889371514055,
+        "cumulative": 99.57649636949343,
+        "paperDistance": 19.325889371514055,
+        "paperCumulative": 99.57649636949343
+      },
+      {
+        "from": "C",
+        "to": "T",
+        "distance": 31.97577207824699,
+        "cumulative": 131.5522684477404,
+        "paperDistance": 31.975772078246994,
+        "paperCumulative": 131.55226844774043
+      },
+      {
+        "from": "T",
+        "to": "H",
+        "distance": 5.360037313302962,
+        "cumulative": 136.91230576104337,
+        "paperDistance": 5.360037313302962,
+        "paperCumulative": 136.9123057610434
+      },
+      {
+        "from": "H",
+        "to": "D",
+        "distance": 15.868522300453815,
+        "cumulative": 152.78082806149717,
+        "paperDistance": 15.868522300453815,
+        "paperCumulative": 152.7808280614972
+      },
+      {
+        "from": "D",
+        "to": "L",
+        "distance": 26.129676614914313,
+        "cumulative": 178.91050467641148,
+        "paperDistance": 26.129676614914313,
+        "paperCumulative": 178.9105046764115
+      },
+      {
+        "from": "L",
+        "to": "A",
+        "distance": 45.5,
+        "cumulative": 224.41050467641148,
+        "paperDistance": 45.5,
+        "paperCumulative": 224.4105046764115
+      },
+      {
+        "from": "A",
+        "to": "B",
+        "distance": 18.384776310850235,
+        "cumulative": 242.79528098726172,
+        "paperDistance": 18.384776310850235,
+        "paperCumulative": 242.79528098726175
+      },
+      {
+        "from": "B",
+        "to": "M",
+        "distance": 14.822280526288795,
+        "cumulative": 257.6175615135505,
+        "paperDistance": 14.822280526288795,
+        "paperCumulative": 257.6175615135505
+      },
+      {
+        "from": "M",
+        "to": "P",
+        "distance": 6.62872536767062,
+        "cumulative": 264.2462868812211,
+        "paperDistance": 6.62872536767062,
+        "paperCumulative": 264.2462868812211
+      },
+      {
+        "from": "P",
+        "to": "N",
+        "distance": 6.628725367670621,
+        "cumulative": 270.8750122488917,
+        "paperDistance": 6.628725367670621,
+        "paperCumulative": 270.8750122488917
+      },
+      {
+        "from": "N",
+        "to": "O",
+        "distance": 9.464142856064676,
+        "cumulative": 280.3391551049564,
+        "paperDistance": 9.464142856064676,
+        "paperCumulative": 280.3391551049564
+      },
+      {
+        "from": "O",
+        "to": "K",
+        "distance": 24.181397809059753,
+        "cumulative": 304.52055291401615,
+        "paperDistance": 24.181397809059757,
+        "paperCumulative": 304.52055291401615
+      },
+      {
+        "from": "K",
+        "to": "F",
+        "distance": 10.720074626605916,
+        "cumulative": 315.2406275406221,
+        "paperDistance": 10.720074626605916,
+        "paperCumulative": 315.2406275406221
+      },
+      {
+        "from": "F",
+        "to": "S",
+        "distance": 14.061649974309558,
+        "cumulative": 329.30227751493163,
+        "paperDistance": 14.061649974309558,
+        "paperCumulative": 329.30227751493163
+      },
+      {
+        "from": "S",
+        "to": "R",
+        "distance": 8.324061508662705,
+        "cumulative": 337.6263390235943,
+        "paperDistance": 8.324061508662705,
+        "paperCumulative": 337.6263390235943
+      }
+    ],
+    "total": 337.6263390235943,
+    "paperTotal": 337.6263390235943,
+    "paperTotalText": "337.6263390235943",
+    "paperRoundedText": "337.63"
+  },
+  "delivery": [
+    {
+      "capacity": 200,
+      "totalLength": 352.44727714930264,
+      "paperTotalLength": 352.45,
+      "paperTotalText": "352.45",
+      "couriers": [
+        {
+          "sequence": [
+            "D",
+            "L",
+            "A",
+            "B",
+            "M",
+            "P",
+            "N",
+            "O",
+            "K",
+            "F",
+            "S"
+          ],
+          "deliveries": 192,
+          "pickups": 201,
+          "length": 202.1896742454614,
+          "maxLoad": 208,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 192
+            },
+            {
+              "id": "D",
+              "load": 201
+            },
+            {
+              "id": "L",
+              "load": 193
+            },
+            {
+              "id": "A",
+              "load": 193
+            },
+            {
+              "id": "B",
+              "load": 200
+            },
+            {
+              "id": "M",
+              "load": 200
+            },
+            {
+              "id": "P",
+              "load": 208
+            },
+            {
+              "id": "N",
+              "load": 205
+            },
+            {
+              "id": "O",
+              "load": 202
+            },
+            {
+              "id": "K",
+              "load": 196
+            },
+            {
+              "id": "F",
+              "load": 197
+            },
+            {
+              "id": "S",
+              "load": 201
+            }
+          ],
+          "paperSequence": [
+            "D",
+            "L",
+            "A",
+            "B",
+            "M",
+            "P",
+            "N",
+            "O",
+            "K",
+            "F",
+            "S"
+          ],
+          "paperDeliveries": 192,
+          "paperPickups": 201,
+          "paperLength": 202.18967424546142,
+          "paperLengthText": "202.18967424546142",
+          "paperMaxLoad": 208
+        },
+        {
+          "sequence": [
+            "T",
+            "H",
+            "C",
+            "G",
+            "J",
+            "E",
+            "I",
+            "Q"
+          ],
+          "deliveries": 156,
+          "pickups": 137,
+          "length": 150.25760290384127,
+          "maxLoad": 156,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 156
+            },
+            {
+              "id": "T",
+              "load": 152
+            },
+            {
+              "id": "H",
+              "load": 146
+            },
+            {
+              "id": "C",
+              "load": 146
+            },
+            {
+              "id": "G",
+              "load": 140
+            },
+            {
+              "id": "J",
+              "load": 149
+            },
+            {
+              "id": "E",
+              "load": 144
+            },
+            {
+              "id": "I",
+              "load": 140
+            },
+            {
+              "id": "Q",
+              "load": 137
+            }
+          ],
+          "paperSequence": [
+            "T",
+            "H",
+            "C",
+            "G",
+            "J",
+            "E",
+            "I",
+            "Q"
+          ],
+          "paperDeliveries": 156,
+          "paperPickups": 137,
+          "paperLength": 150.25760290384127,
+          "paperLengthText": "150.25760290384127",
+          "paperMaxLoad": 156
+        }
+      ]
+    },
+    {
+      "capacity": 195,
+      "totalLength": 352.44727714930264,
+      "paperTotalLength": 352.45,
+      "paperTotalText": "352.45",
+      "couriers": [
+        {
+          "sequence": [
+            "D",
+            "L",
+            "A",
+            "B",
+            "M",
+            "P",
+            "N",
+            "O",
+            "K",
+            "F",
+            "S"
+          ],
+          "deliveries": 192,
+          "pickups": 201,
+          "length": 202.1896742454614,
+          "maxLoad": 208,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 192
+            },
+            {
+              "id": "D",
+              "load": 201
+            },
+            {
+              "id": "L",
+              "load": 193
+            },
+            {
+              "id": "A",
+              "load": 193
+            },
+            {
+              "id": "B",
+              "load": 200
+            },
+            {
+              "id": "M",
+              "load": 200
+            },
+            {
+              "id": "P",
+              "load": 208
+            },
+            {
+              "id": "N",
+              "load": 205
+            },
+            {
+              "id": "O",
+              "load": 202
+            },
+            {
+              "id": "K",
+              "load": 196
+            },
+            {
+              "id": "F",
+              "load": 197
+            },
+            {
+              "id": "S",
+              "load": 201
+            }
+          ],
+          "paperSequence": [
+            "D",
+            "L",
+            "A",
+            "B",
+            "M",
+            "P",
+            "N",
+            "O",
+            "K",
+            "F",
+            "S"
+          ],
+          "paperDeliveries": 192,
+          "paperPickups": 201,
+          "paperLength": 202.18967424546142,
+          "paperLengthText": "202.18967424546142",
+          "paperMaxLoad": 208
+        },
+        {
+          "sequence": [
+            "T",
+            "H",
+            "C",
+            "G",
+            "J",
+            "E",
+            "I",
+            "Q"
+          ],
+          "deliveries": 156,
+          "pickups": 137,
+          "length": 150.25760290384127,
+          "maxLoad": 156,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 156
+            },
+            {
+              "id": "T",
+              "load": 152
+            },
+            {
+              "id": "H",
+              "load": 146
+            },
+            {
+              "id": "C",
+              "load": 146
+            },
+            {
+              "id": "G",
+              "load": 140
+            },
+            {
+              "id": "J",
+              "load": 149
+            },
+            {
+              "id": "E",
+              "load": 144
+            },
+            {
+              "id": "I",
+              "load": 140
+            },
+            {
+              "id": "Q",
+              "load": 137
+            }
+          ],
+          "paperSequence": [
+            "T",
+            "H",
+            "C",
+            "G",
+            "J",
+            "E",
+            "I",
+            "Q"
+          ],
+          "paperDeliveries": 156,
+          "paperPickups": 137,
+          "paperLength": 150.25760290384127,
+          "paperLengthText": "150.25760290384127",
+          "paperMaxLoad": 156
+        }
+      ]
+    },
+    {
+      "capacity": 190,
+      "totalLength": 353.3108925025943,
+      "paperTotalLength": 353.31,
+      "paperTotalText": "353.31",
+      "couriers": [
+        {
+          "sequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "deliveries": 172,
+          "pickups": 162,
+          "length": 177.92972463951085,
+          "maxLoad": 177,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 172
+            },
+            {
+              "id": "S",
+              "load": 176
+            },
+            {
+              "id": "F",
+              "load": 177
+            },
+            {
+              "id": "K",
+              "load": 171
+            },
+            {
+              "id": "I",
+              "load": 167
+            },
+            {
+              "id": "E",
+              "load": 162
+            },
+            {
+              "id": "J",
+              "load": 171
+            },
+            {
+              "id": "G",
+              "load": 165
+            },
+            {
+              "id": "C",
+              "load": 165
+            },
+            {
+              "id": "Q",
+              "load": 162
+            }
+          ],
+          "paperSequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "paperDeliveries": 172,
+          "paperPickups": 162,
+          "paperLength": 177.92972463951085,
+          "paperLengthText": "177.92972463951085",
+          "paperMaxLoad": 177
+        },
+        {
+          "sequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "deliveries": 176,
+          "pickups": 176,
+          "length": 175.38116786308345,
+          "maxLoad": 186,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 176
+            },
+            {
+              "id": "O",
+              "load": 173
+            },
+            {
+              "id": "N",
+              "load": 170
+            },
+            {
+              "id": "P",
+              "load": 178
+            },
+            {
+              "id": "M",
+              "load": 178
+            },
+            {
+              "id": "B",
+              "load": 185
+            },
+            {
+              "id": "A",
+              "load": 185
+            },
+            {
+              "id": "L",
+              "load": 177
+            },
+            {
+              "id": "D",
+              "load": 186
+            },
+            {
+              "id": "H",
+              "load": 180
+            },
+            {
+              "id": "T",
+              "load": 176
+            }
+          ],
+          "paperSequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "paperDeliveries": 176,
+          "paperPickups": 176,
+          "paperLength": 175.38116786308348,
+          "paperLengthText": "175.38116786308348",
+          "paperMaxLoad": 186
+        }
+      ]
+    },
+    {
+      "capacity": 186,
+      "totalLength": 353.3108925025943,
+      "paperTotalLength": 353.31,
+      "paperTotalText": "353.31",
+      "couriers": [
+        {
+          "sequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "deliveries": 172,
+          "pickups": 162,
+          "length": 177.92972463951085,
+          "maxLoad": 177,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 172
+            },
+            {
+              "id": "S",
+              "load": 176
+            },
+            {
+              "id": "F",
+              "load": 177
+            },
+            {
+              "id": "K",
+              "load": 171
+            },
+            {
+              "id": "I",
+              "load": 167
+            },
+            {
+              "id": "E",
+              "load": 162
+            },
+            {
+              "id": "J",
+              "load": 171
+            },
+            {
+              "id": "G",
+              "load": 165
+            },
+            {
+              "id": "C",
+              "load": 165
+            },
+            {
+              "id": "Q",
+              "load": 162
+            }
+          ],
+          "paperSequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "paperDeliveries": 172,
+          "paperPickups": 162,
+          "paperLength": 177.92972463951085,
+          "paperLengthText": "177.92972463951085",
+          "paperMaxLoad": 177
+        },
+        {
+          "sequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "deliveries": 176,
+          "pickups": 176,
+          "length": 175.38116786308345,
+          "maxLoad": 186,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 176
+            },
+            {
+              "id": "O",
+              "load": 173
+            },
+            {
+              "id": "N",
+              "load": 170
+            },
+            {
+              "id": "P",
+              "load": 178
+            },
+            {
+              "id": "M",
+              "load": 178
+            },
+            {
+              "id": "B",
+              "load": 185
+            },
+            {
+              "id": "A",
+              "load": 185
+            },
+            {
+              "id": "L",
+              "load": 177
+            },
+            {
+              "id": "D",
+              "load": 186
+            },
+            {
+              "id": "H",
+              "load": 180
+            },
+            {
+              "id": "T",
+              "load": 176
+            }
+          ],
+          "paperSequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "paperDeliveries": 176,
+          "paperPickups": 176,
+          "paperLength": 175.38116786308348,
+          "paperLengthText": "175.38116786308348",
+          "paperMaxLoad": 186
+        }
+      ]
+    }
+  ],
+  "simultaneous": [
+    {
+      "capacity": 200,
+      "totalLength": 353.3108925025943,
+      "paperTotalLength": 353.31,
+      "paperTotalText": "353.31",
+      "couriers": [
+        {
+          "sequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "deliveries": 172,
+          "pickups": 162,
+          "length": 177.92972463951085,
+          "maxLoad": 177,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 172
+            },
+            {
+              "id": "S",
+              "load": 176
+            },
+            {
+              "id": "F",
+              "load": 177
+            },
+            {
+              "id": "K",
+              "load": 171
+            },
+            {
+              "id": "I",
+              "load": 167
+            },
+            {
+              "id": "E",
+              "load": 162
+            },
+            {
+              "id": "J",
+              "load": 171
+            },
+            {
+              "id": "G",
+              "load": 165
+            },
+            {
+              "id": "C",
+              "load": 165
+            },
+            {
+              "id": "Q",
+              "load": 162
+            }
+          ],
+          "paperSequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "paperDeliveries": 172,
+          "paperPickups": 162,
+          "paperLength": 177.92972463951085,
+          "paperLengthText": "177.92972463951085",
+          "paperMaxLoad": 177
+        },
+        {
+          "sequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "deliveries": 176,
+          "pickups": 176,
+          "length": 175.38116786308345,
+          "maxLoad": 186,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 176
+            },
+            {
+              "id": "O",
+              "load": 173
+            },
+            {
+              "id": "N",
+              "load": 170
+            },
+            {
+              "id": "P",
+              "load": 178
+            },
+            {
+              "id": "M",
+              "load": 178
+            },
+            {
+              "id": "B",
+              "load": 185
+            },
+            {
+              "id": "A",
+              "load": 185
+            },
+            {
+              "id": "L",
+              "load": 177
+            },
+            {
+              "id": "D",
+              "load": 186
+            },
+            {
+              "id": "H",
+              "load": 180
+            },
+            {
+              "id": "T",
+              "load": 176
+            }
+          ],
+          "paperSequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "paperDeliveries": 176,
+          "paperPickups": 176,
+          "paperLength": 175.38116786308348,
+          "paperLengthText": "175.38116786308348",
+          "paperMaxLoad": 186
+        }
+      ]
+    },
+    {
+      "capacity": 195,
+      "totalLength": 353.3108925025943,
+      "paperTotalLength": 353.31,
+      "paperTotalText": "353.31",
+      "couriers": [
+        {
+          "sequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "deliveries": 172,
+          "pickups": 162,
+          "length": 177.92972463951085,
+          "maxLoad": 177,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 172
+            },
+            {
+              "id": "S",
+              "load": 176
+            },
+            {
+              "id": "F",
+              "load": 177
+            },
+            {
+              "id": "K",
+              "load": 171
+            },
+            {
+              "id": "I",
+              "load": 167
+            },
+            {
+              "id": "E",
+              "load": 162
+            },
+            {
+              "id": "J",
+              "load": 171
+            },
+            {
+              "id": "G",
+              "load": 165
+            },
+            {
+              "id": "C",
+              "load": 165
+            },
+            {
+              "id": "Q",
+              "load": 162
+            }
+          ],
+          "paperSequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "paperDeliveries": 172,
+          "paperPickups": 162,
+          "paperLength": 177.92972463951085,
+          "paperLengthText": "177.92972463951085",
+          "paperMaxLoad": 177
+        },
+        {
+          "sequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "deliveries": 176,
+          "pickups": 176,
+          "length": 175.38116786308345,
+          "maxLoad": 186,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 176
+            },
+            {
+              "id": "O",
+              "load": 173
+            },
+            {
+              "id": "N",
+              "load": 170
+            },
+            {
+              "id": "P",
+              "load": 178
+            },
+            {
+              "id": "M",
+              "load": 178
+            },
+            {
+              "id": "B",
+              "load": 185
+            },
+            {
+              "id": "A",
+              "load": 185
+            },
+            {
+              "id": "L",
+              "load": 177
+            },
+            {
+              "id": "D",
+              "load": 186
+            },
+            {
+              "id": "H",
+              "load": 180
+            },
+            {
+              "id": "T",
+              "load": 176
+            }
+          ],
+          "paperSequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "paperDeliveries": 176,
+          "paperPickups": 176,
+          "paperLength": 175.38116786308348,
+          "paperLengthText": "175.38116786308348",
+          "paperMaxLoad": 186
+        }
+      ]
+    },
+    {
+      "capacity": 190,
+      "totalLength": 353.3108925025943,
+      "paperTotalLength": 353.31,
+      "paperTotalText": "353.31",
+      "couriers": [
+        {
+          "sequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "deliveries": 172,
+          "pickups": 162,
+          "length": 177.92972463951085,
+          "maxLoad": 177,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 172
+            },
+            {
+              "id": "S",
+              "load": 176
+            },
+            {
+              "id": "F",
+              "load": 177
+            },
+            {
+              "id": "K",
+              "load": 171
+            },
+            {
+              "id": "I",
+              "load": 167
+            },
+            {
+              "id": "E",
+              "load": 162
+            },
+            {
+              "id": "J",
+              "load": 171
+            },
+            {
+              "id": "G",
+              "load": 165
+            },
+            {
+              "id": "C",
+              "load": 165
+            },
+            {
+              "id": "Q",
+              "load": 162
+            }
+          ],
+          "paperSequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "paperDeliveries": 172,
+          "paperPickups": 162,
+          "paperLength": 177.92972463951085,
+          "paperLengthText": "177.92972463951085",
+          "paperMaxLoad": 177
+        },
+        {
+          "sequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "deliveries": 176,
+          "pickups": 176,
+          "length": 175.38116786308345,
+          "maxLoad": 186,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 176
+            },
+            {
+              "id": "O",
+              "load": 173
+            },
+            {
+              "id": "N",
+              "load": 170
+            },
+            {
+              "id": "P",
+              "load": 178
+            },
+            {
+              "id": "M",
+              "load": 178
+            },
+            {
+              "id": "B",
+              "load": 185
+            },
+            {
+              "id": "A",
+              "load": 185
+            },
+            {
+              "id": "L",
+              "load": 177
+            },
+            {
+              "id": "D",
+              "load": 186
+            },
+            {
+              "id": "H",
+              "load": 180
+            },
+            {
+              "id": "T",
+              "load": 176
+            }
+          ],
+          "paperSequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "paperDeliveries": 176,
+          "paperPickups": 176,
+          "paperLength": 175.38116786308348,
+          "paperLengthText": "175.38116786308348",
+          "paperMaxLoad": 186
+        }
+      ]
+    },
+    {
+      "capacity": 186,
+      "totalLength": 353.3108925025943,
+      "paperTotalLength": 353.31,
+      "paperTotalText": "353.31",
+      "couriers": [
+        {
+          "sequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "deliveries": 172,
+          "pickups": 162,
+          "length": 177.92972463951085,
+          "maxLoad": 177,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 172
+            },
+            {
+              "id": "S",
+              "load": 176
+            },
+            {
+              "id": "F",
+              "load": 177
+            },
+            {
+              "id": "K",
+              "load": 171
+            },
+            {
+              "id": "I",
+              "load": 167
+            },
+            {
+              "id": "E",
+              "load": 162
+            },
+            {
+              "id": "J",
+              "load": 171
+            },
+            {
+              "id": "G",
+              "load": 165
+            },
+            {
+              "id": "C",
+              "load": 165
+            },
+            {
+              "id": "Q",
+              "load": 162
+            }
+          ],
+          "paperSequence": [
+            "S",
+            "F",
+            "K",
+            "I",
+            "E",
+            "J",
+            "G",
+            "C",
+            "Q"
+          ],
+          "paperDeliveries": 172,
+          "paperPickups": 162,
+          "paperLength": 177.92972463951085,
+          "paperLengthText": "177.92972463951085",
+          "paperMaxLoad": 177
+        },
+        {
+          "sequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "deliveries": 176,
+          "pickups": 176,
+          "length": 175.38116786308345,
+          "maxLoad": 186,
+          "loadProfile": [
+            {
+              "id": "R",
+              "load": 176
+            },
+            {
+              "id": "O",
+              "load": 173
+            },
+            {
+              "id": "N",
+              "load": 170
+            },
+            {
+              "id": "P",
+              "load": 178
+            },
+            {
+              "id": "M",
+              "load": 178
+            },
+            {
+              "id": "B",
+              "load": 185
+            },
+            {
+              "id": "A",
+              "load": 185
+            },
+            {
+              "id": "L",
+              "load": 177
+            },
+            {
+              "id": "D",
+              "load": 186
+            },
+            {
+              "id": "H",
+              "load": 180
+            },
+            {
+              "id": "T",
+              "load": 176
+            }
+          ],
+          "paperSequence": [
+            "O",
+            "N",
+            "P",
+            "M",
+            "B",
+            "A",
+            "L",
+            "D",
+            "H",
+            "T"
+          ],
+          "paperDeliveries": 176,
+          "paperPickups": 176,
+          "paperLength": 175.38116786308348,
+          "paperLengthText": "175.38116786308348",
+          "paperMaxLoad": 186
+        }
+      ]
+    }
+  ]
+}
