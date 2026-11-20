@@ -1,0 +1,20 @@
+{
+  "name": "express-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compute": "tsx scripts/compute.ts",
+    "predev": "tsx scripts/compute.ts",
+    "dev": "vite",
+    "prebuild": "tsx scripts/compute.ts",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "tsx --test tests/model.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.7"
+  }
+}
